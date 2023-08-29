@@ -1,5 +1,7 @@
 import React from 'react'
 
+import clsx from 'clsx'
+
 import s from './button.module.scss'
 
 export type ButtonProps = {
@@ -20,7 +22,7 @@ export const Button = props => {
   }: ButtonProps = props
 
   return (
-    <button className={s.root} type={type}>
+    <button className={clsx(s.root, {})} type={type}>
       {children}
     </button>
   )
