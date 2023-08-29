@@ -15,7 +15,8 @@ export const Primary: Story = {
   args: {
     variant: 'primary',
     children: 'Primary Button',
-    disabled: false,
+    isDisabled: false,
+    fullWidth: false,
   },
 }
 
@@ -23,21 +24,24 @@ export const Secondary: Story = {
   args: {
     variant: 'secondary',
     children: 'Secondary Button',
-    disabled: false,
+    isDisabled: false,
+    fullWidth: false,
   },
 }
 export const Tertiary: Story = {
   args: {
     variant: 'tertiary',
     children: 'Tertiary Button',
-    disabled: false,
+    isDisabled: false,
+    fullWidth: false,
   },
 }
 export const Link: Story = {
   args: {
     variant: 'link',
     children: 'Link',
-    disabled: false,
+    isDisabled: false,
+    fullWidth: false,
   },
 }
 
@@ -45,7 +49,7 @@ export const FullWidth: Story = {
   args: {
     variant: 'primary',
     children: 'Full Width Button',
-    disabled: false,
+    isDisabled: false,
     fullWidth: true,
   },
 }

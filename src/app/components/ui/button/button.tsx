@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { ComponentPropsWithoutRef } from 'react'
 
 import clsx from 'clsx'
 
@@ -9,7 +9,8 @@ export type ButtonProps = {
   variant?: 'primary' | 'secondary' | 'tertiary' | 'link'
   fullWidth?: boolean
   type?: 'button' | 'submit'
-  disable?: boolean
+  onClick?: (event: MouseEvent) => void
+  isDisabled?: boolean
 } & ComponentPropsWithoutRef<'button'>
 
 export const Button = props => {
@@ -17,12 +18,19 @@ export const Button = props => {
     children,
     variant = 'primary',
     type = 'button',
-    disable = false,
+    isDisabled = false,
     fullWidth = false,
+    onClick,
   }: ButtonProps = props
 
   return (
-    <button className={clsx(s.root, {})} type={type}>
+    <button
+      disabled={isDisabled}
+      className={clsx(s.root, s[variant], {
+        [s.fullWidth]: fullWidth,
+      })}
+      type={type}
+    >
       {children}
     </button>
   )

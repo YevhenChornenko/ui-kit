@@ -1,8 +1,28 @@
 .root {
-  padding: 26px;
+  padding: 12px 26px;
   outline: none;
   background: transparent;
   border: none;
   cursor: pointer;
+  border-radius: 6px;
 
+  &.primary{
+    background-color: aqua;
+  }
+  &.secondary{
+    background-color: bisque;
+  }
+  &.tertiary {
+
+  }
+  &.link{
+
+  }
+  &:disabled{
+    cursor: auto;
+    background-color: black;
+  }
+  &.fullWidth{
+    width: 100%;
+  }
 }

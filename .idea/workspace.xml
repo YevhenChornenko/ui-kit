@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="feat: clsx install">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/button/button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/button/button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/button/button.stories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/button/button.stories.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/ui/button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/button/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,10 +116,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.storybook" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.format" />
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.storybook" />
       </list>
     </recent_temporary>
@@ -130,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693154071071</updated>
       <workItem from="1693154077810" duration="1828000" />
-      <workItem from="1693225613563" duration="11776000" />
+      <workItem from="1693225613563" duration="15350000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
@@ -199,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693303740056</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: clsx install">
+      <created>1693304162220</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1693304162220</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
