@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="feat: clsx install">
+    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="fix: button ui component add styles">
+      <change beforePath="$PROJECT_DIR$/.idea/stylesheetLinters/stylelint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/stylesheetLinters/stylelint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ui/button/button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/button/button.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ui/button/button.stories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/button/button.stories.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/ui/button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/button/button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
@@ -50,11 +49,11 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "D:\\next-projects\\ui-kit\\node_modules\\stylelint",
+    "node.js.selected.package.stylelint": "F:\\yevhen-chornenko\\ui-kit\\node_modules\\stylelint",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "pnpm",
     "prettierjs.PrettierConfiguration.Package": "D:\\next-projects\\ui-kit\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "watcher.settings",
     "ts.external.directory.path": "F:\\yevhen-chornenko\\ui-kit\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -133,7 +132,8 @@
       <option name="presentableId" value="Default" />
       <updated>1693154071071</updated>
       <workItem from="1693154077810" duration="1828000" />
-      <workItem from="1693225613563" duration="15350000" />
+      <workItem from="1693225613563" duration="15586000" />
+      <workItem from="1693331643750" duration="815000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
@@ -209,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693304162220</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix: button ui component add styles">
+      <created>1693307921487</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1693307921487</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +255,7 @@
     <MESSAGE value="feat: eslin.json remove" />
     <MESSAGE value="feat: add stories button i scss add new branch develop" />
     <MESSAGE value="feat: clsx install" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: clsx install" />
+    <MESSAGE value="fix: button ui component add styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: button ui component add styles" />
   </component>
 </project>

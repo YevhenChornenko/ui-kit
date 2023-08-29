@@ -13,7 +13,7 @@ export type ButtonProps = {
   isDisabled?: boolean
 } & ComponentPropsWithoutRef<'button'>
 
-export const Button = props => {
+export const Button = (props: ButtonProps) => {
   const {
     children,
     variant = 'primary',
