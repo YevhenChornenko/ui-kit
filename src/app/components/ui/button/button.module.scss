@@ -1,27 +1,50 @@
+
+
 .root {
+  cursor: pointer;
+
   padding: 12px 26px;
-  outline: none;
+
   background: transparent;
   border: none;
-  cursor: pointer;
   border-radius: 6px;
+  outline: none;
+
 
   &.primary{
-    background-color: aqua;
+    color: var(--primary-default-color);
+    background-color: var(--primary-default);
+
+    &:active{
+      color: var(--primary-active-color);
+      background-color: var(--primary-active);
+    }
+
+    &:hover{
+      color: var(--primary-hover-color);
+      background-color: var(--primary-hover);
+    }
+
+    &:focus{
+      color: var(--primary-focus-color);
+      background-color: var(--primary-focus);
+      border: var(--primary-focus-border);
+    }
+
+    &:disabled{
+      cursor: auto;
+      color: var(--primary-disabled-color);
+      background-color: var(--primary-disabled);
+    }
   }
+
   &.secondary{
     background-color: bisque;
   }
-  &.tertiary {
 
-  }
-  &.link{
 
-  }
-  &:disabled{
-    cursor: auto;
-    background-color: black;
-  }
+
+
   &.fullWidth{
     width: 100%;
   }
