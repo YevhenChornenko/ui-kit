@@ -2,8 +2,7 @@
   cursor: pointer;
 
   display: flex;
-  gap: 10px;
-  align-items: center;
+  justify-content: center;
 
   padding: 6px 24px;
 
@@ -28,15 +27,15 @@
       background-color: var(--primary-hover);
     }
 
+    &:active{
+      color: var(--primary-active-color) ;
+      background-color: var(--primary-active) ;
+    }
+
     &:disabled{
       cursor: auto;
       color: var(--primary-disabled-color);
       background-color: var(--primary-disabled);
-    }
-
-    &:active{
-      color: var(--primary-active-color) ;
-      background-color: var(--primary-active) ;
     }
   }
 
