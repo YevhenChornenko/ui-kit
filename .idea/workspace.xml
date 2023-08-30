@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="feat: add storybook">
-      <change beforePath="$PROJECT_DIR$/.idea/stylesheetLinters/stylelint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/stylesheetLinters/stylelint.xml" afterDir="false" />
+    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="fix: fix primary style dor button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/button/button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/button/button.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -31,28 +34,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "F:/IT-Incubator/watchers (1).xml",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "D:\\next-projects\\ui-kit\\node_modules\\stylelint",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "pnpm",
-    "prettierjs.PrettierConfiguration.Package": "D:\\next-projects\\ui-kit\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "F:\\yevhen-chornenko\\ui-kit\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/IT-Incubator/watchers (1).xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;F:\\yevhen-chornenko\\ui-kit\\node_modules\\stylelint&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\next-projects\\ui-kit\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;F:\\yevhen-chornenko\\ui-kit\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -62,7 +65,12 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="npm.lint">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\yevhen-chornenko\ui-kit\src\app\assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.storybook">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -93,11 +101,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="storybook" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.format" />
-        <item itemvalue="npm.lint" />
+        <item itemvalue="npm.storybook" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.lint" />
+        <item itemvalue="npm.format" />
+        <item itemvalue="npm.storybook" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +130,9 @@
       <option name="presentableId" value="Default" />
       <updated>1693154071071</updated>
       <workItem from="1693154077810" duration="1828000" />
-      <workItem from="1693225613563" duration="1332000" />
+      <workItem from="1693225613563" duration="15586000" />
+      <workItem from="1693331643750" duration="5327000" />
+      <workItem from="1693392188750" duration="3838000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
@@ -151,7 +173,77 @@
       <option name="project" value="LOCAL" />
       <updated>1693226493705</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: eslin fix downgrade v for 8.22.0">
+      <created>1693227029017</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693227029017</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: eslin.json remove">
+      <created>1693227209812</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693227209812</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: add stories button i scss add new branch develop">
+      <created>1693303612555</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693303612555</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: clsx install">
+      <created>1693303740056</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693303740056</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: clsx install">
+      <created>1693304162220</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1693304162220</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix: button ui component add styles">
+      <created>1693307921487</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1693307921487</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix: button ui component add styles">
+      <created>1693334063240</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1693334063240</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: add style variables">
+      <created>1693334174946</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1693334174946</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: add style variables">
+      <created>1693338571817</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1693338571817</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix: fix primary style dor button">
+      <created>1693395873029</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1693395873029</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +278,13 @@
     <MESSAGE value="feat: hello world" />
     <MESSAGE value="fix: delete global css" />
     <MESSAGE value="feat: add storybook" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add storybook" />
+    <MESSAGE value="feat: eslin fix downgrade v for 8.22.0" />
+    <MESSAGE value="feat: eslin.json remove" />
+    <MESSAGE value="feat: add stories button i scss add new branch develop" />
+    <MESSAGE value="feat: clsx install" />
+    <MESSAGE value="fix: button ui component add styles" />
+    <MESSAGE value="feat: add style variables" />
+    <MESSAGE value="fix: fix primary style dor button" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: fix primary style dor button" />
   </component>
 </project>

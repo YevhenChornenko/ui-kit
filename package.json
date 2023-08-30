@@ -15,6 +15,7 @@
     "@types/node": "20.5.6",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
+    "clsx": "^2.0.0",
     "eslint": "8.22.0",
     "eslint-config-next": "13.4.19",
     "next": "13.4.19",
@@ -35,6 +36,7 @@
     "@storybook/react": "7.3.2",
     "@storybook/testing-library": "0.2.0",
     "eslint-plugin-storybook": "^0.6.13",
+    "sass": "^1.66.1",
     "storybook": "7.3.2",
     "stylelint": "^15.10.3"
   }

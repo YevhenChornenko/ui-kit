@@ -1,0 +1,52 @@
+.root {
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 6px 24px;
+
+  font-family: var(--font-family-primary);
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  text-align: center;
+  text-decoration: none;
+
+  background-color: transparent;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+
+  &.primary{
+    color: var(--primary-default-color);
+    background-color: var(--primary-default);
+
+    &:hover{
+      color: var(--primary-hover-color);
+      background-color: var(--primary-hover);
+    }
+
+    &:active{
+      color: var(--primary-active-color) ;
+      background-color: var(--primary-active) ;
+    }
+
+    &:disabled{
+      cursor: auto;
+      color: var(--primary-disabled-color);
+      background-color: var(--primary-disabled);
+    }
+  }
+
+  &.secondary{
+    background-color: bisque;
+  }
+
+
+
+
+  &.fullWidth{
+    width: 100%;
+  }
+}
