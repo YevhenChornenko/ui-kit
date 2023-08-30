@@ -1,40 +1,42 @@
-
-
 .root {
   cursor: pointer;
 
-  padding: 12px 26px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 
-  background: transparent;
+  padding: 6px 24px;
+
+  font-family: var(--font-family-primary);
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  text-align: center;
+  text-decoration: none;
+
+  background-color: transparent;
   border: none;
-  border-radius: 6px;
+  border-radius: 2px;
   outline: none;
-
 
   &.primary{
     color: var(--primary-default-color);
     background-color: var(--primary-default);
-
-    &:active{
-      color: var(--primary-active-color);
-      background-color: var(--primary-active);
-    }
 
     &:hover{
       color: var(--primary-hover-color);
       background-color: var(--primary-hover);
     }
 
-    &:focus{
-      color: var(--primary-focus-color);
-      background-color: var(--primary-focus);
-      border: var(--primary-focus-border);
-    }
-
     &:disabled{
       cursor: auto;
       color: var(--primary-disabled-color);
       background-color: var(--primary-disabled);
+    }
+
+    &:active{
+      color: var(--primary-active-color) ;
+      background-color: var(--primary-active) ;
     }
   }
 
