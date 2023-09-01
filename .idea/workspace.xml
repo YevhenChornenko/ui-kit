@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="fix: fix primary style dor button">
+    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="fix: minor fix style for full width">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/ui/button/button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/button/button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/button/button.stories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/button/button.stories.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/button/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/variables/_variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/variables/_variant.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,10 +117,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.storybook" />
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.format" />
+        <item itemvalue="npm.storybook" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.storybook" />
       </list>
     </recent_temporary>
@@ -132,7 +136,8 @@
       <workItem from="1693154077810" duration="1828000" />
       <workItem from="1693225613563" duration="15586000" />
       <workItem from="1693331643750" duration="5327000" />
-      <workItem from="1693392188750" duration="3838000" />
+      <workItem from="1693392188750" duration="4996000" />
+      <workItem from="1693566942823" duration="4860000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
@@ -243,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693395873029</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fix: minor fix style for full width">
+      <created>1693396110199</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1693396110199</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +297,7 @@
     <MESSAGE value="fix: button ui component add styles" />
     <MESSAGE value="feat: add style variables" />
     <MESSAGE value="fix: fix primary style dor button" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: fix primary style dor button" />
+    <MESSAGE value="fix: minor fix style for full width" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: minor fix style for full width" />
   </component>
 </project>
