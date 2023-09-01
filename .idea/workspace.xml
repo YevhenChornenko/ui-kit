@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="feat: add secondary outline and text-button">
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/text-field/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/text-field/text-field.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/text-field/text-field.stories.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/text-field/text-field.tsx" afterDir="false" />
+    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="feat: create text-field">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/text-field/text-field.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/text-field/text-field.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +75,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\yevhen-chornenko\ui-kit\src\app\components" />
       <recent name="F:\yevhen-chornenko\ui-kit\src\app\assets" />
     </key>
   </component>
@@ -144,7 +142,7 @@
       <workItem from="1693225613563" duration="15586000" />
       <workItem from="1693331643750" duration="5327000" />
       <workItem from="1693392188750" duration="4996000" />
-      <workItem from="1693566942823" duration="8545000" />
+      <workItem from="1693566942823" duration="11117000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
@@ -269,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693572071812</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat: create text-field">
+      <created>1693578361538</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1693578361538</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +318,7 @@
     <MESSAGE value="fix: fix primary style dor button" />
     <MESSAGE value="fix: minor fix style for full width" />
     <MESSAGE value="feat: add secondary outline and text-button" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add secondary outline and text-button" />
+    <MESSAGE value="feat: create text-field" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create text-field" />
   </component>
 </project>
