@@ -4,18 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="fix: minor fix style for full width">
+    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="feat: add secondary outline and text-button">
+      <change afterPath="$PROJECT_DIR$/src/app/components/ui/text-field/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/ui/text-field/text-field.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/ui/text-field/text-field.stories.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/ui/text-field/text-field.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ui/button/button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/button/button.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ui/button/button.stories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/button/button.stories.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ui/button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/button/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/variables/_variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/variables/_variant.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -137,7 +144,7 @@
       <workItem from="1693225613563" duration="15586000" />
       <workItem from="1693331643750" duration="5327000" />
       <workItem from="1693392188750" duration="4996000" />
-      <workItem from="1693566942823" duration="4860000" />
+      <workItem from="1693566942823" duration="8545000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
@@ -255,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693396110199</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feat: add secondary outline and text-button">
+      <created>1693572071812</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1693572071812</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +312,7 @@
     <MESSAGE value="feat: add style variables" />
     <MESSAGE value="fix: fix primary style dor button" />
     <MESSAGE value="fix: minor fix style for full width" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: minor fix style for full width" />
+    <MESSAGE value="feat: add secondary outline and text-button" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add secondary outline and text-button" />
   </component>
 </project>
