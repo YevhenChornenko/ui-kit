@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="feat: add icons">
-      <change afterPath="$PROJECT_DIR$/src/app/styles/variables/_variant-text-field.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ui/text-field/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/text-field/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ui/text-field/text-field.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/text-field/text-field.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ui/text-field/text-field.stories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/text-field/text-field.stories.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ui/text-field/text-field.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/text-field/text-field.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/variables/_variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/variables/_variant-button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/variables/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/variables/index.scss" afterDir="false" />
-    </list>
+    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="fix: minor fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +139,7 @@
       <workItem from="1693225613563" duration="15586000" />
       <workItem from="1693331643750" duration="5327000" />
       <workItem from="1693392188750" duration="4996000" />
-      <workItem from="1693566942823" duration="17911000" />
+      <workItem from="1693566942823" duration="18020000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
@@ -288,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693591398076</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="fix: minor fix">
+      <created>1693727285563</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1693727285563</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +331,7 @@
     <MESSAGE value="feat: add secondary outline and text-button" />
     <MESSAGE value="feat: create text-field" />
     <MESSAGE value="feat: add icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add icons" />
+    <MESSAGE value="fix: minor fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: minor fix" />
   </component>
 </project>
