@@ -2,6 +2,10 @@
 import * as React from 'react'
 import { ReactNode } from 'react'
 
+import clsx from 'clsx'
+
+import s from './text-field.module.scss'
+
 interface TextFieldProps {
   value?: string
   label?: ReactNode
@@ -15,6 +19,7 @@ interface TextFieldProps {
   required?: boolean
   autofocus?: boolean
   errorMessage?: string
+  className?: string
 }
 
 export const TextField = (props: TextFieldProps) => {
@@ -30,11 +35,18 @@ export const TextField = (props: TextFieldProps) => {
     required,
     autofocus,
     errorMessage,
+    className,
   }: TextFieldProps = props
+  const classNames = {
+    root: clsx(s.box, className),
+    label: s.label,
+    input: clsx(s.input),
+  }
 
   return (
-    <div>
-      <input type={type} />
+    <div className={classNames.root}>
+      <label>lable</label>
+      <input className={classNames.input} type={type} />
     </div>
   )
 }
