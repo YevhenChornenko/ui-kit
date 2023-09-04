@@ -6,7 +6,7 @@ import s from './button.module.scss'
 
 export type ButtonProps = {
   children: React.ReactNode
-  variant?: 'primary' | 'secondary' | 'tertiary' | 'link'
+  variant?: 'primary' | 'secondary' | 'outline' | 'text-button'
   fullWidth?: boolean
   type?: 'button' | 'submit'
   onClick?: (event: MouseEvent) => void
@@ -20,13 +20,14 @@ export const Button = (props: ButtonProps) => {
     type = 'button',
     isDisabled = false,
     fullWidth = false,
+    className,
     onClick,
   }: ButtonProps = props
 
   return (
     <button
       disabled={isDisabled}
-      className={clsx(s.root, s[variant], {
+      className={clsx(s.root, s[variant], className, {
         [s.fullWidth]: fullWidth,
       })}
       type={type}

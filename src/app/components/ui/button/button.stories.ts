@@ -28,18 +28,18 @@ export const Secondary: Story = {
     fullWidth: false,
   },
 }
-export const Tertiary: Story = {
+export const Outline: Story = {
   args: {
-    variant: 'tertiary',
-    children: 'Tertiary Button',
+    variant: 'outline',
+    children: 'Outline',
     isDisabled: false,
     fullWidth: false,
   },
 }
-export const Link: Story = {
+export const Text: Story = {
   args: {
-    variant: 'link',
-    children: 'Link',
+    variant: 'text-button',
+    children: 'Text',
     isDisabled: false,
     fullWidth: false,
   },
