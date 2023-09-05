@@ -8,7 +8,7 @@ import s from './text-field.module.scss'
 
 interface TextFieldProps {
   value?: string
-  label?: ReactNode
+  label?: string | ReactNode
   type?: 'email' | 'text' | 'password' | 'search'
   iconStart?: ReactNode
   iconEnd?: ReactNode
@@ -25,7 +25,7 @@ interface TextFieldProps {
 export const TextField = (props: TextFieldProps) => {
   const {
     value,
-    label,
+    label = 'test',
     type = 'text',
     iconStart,
     iconEnd,
@@ -45,8 +45,8 @@ export const TextField = (props: TextFieldProps) => {
 
   return (
     <div className={classNames.root}>
-      <label>lable</label>
-      <input className={classNames.input} type={type} />
+      <label htmlFor="test">{label}</label>
+      <input placeholder={placeholder} id="test" className={classNames.input} type={type} />
     </div>
   )
 }

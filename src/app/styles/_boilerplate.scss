@@ -32,9 +32,10 @@ body {
   min-width: 32rem;
   margin: 0;
   padding: 0;
-
+  background-color: var(--background-color, #EFEF09EA) ;
   font-family: var(--main-font);
-  font-weight: 400;
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-m);
   font-style: normal;
   line-height: calc(28 / 16 * 100%);
   color: var(--color-light-100);

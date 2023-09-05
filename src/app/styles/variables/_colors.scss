@@ -41,3 +41,12 @@
   --color-light-700: #d5dae0;
   --color-light-900: #bdc1c7;
 }
+
+[data-theme = 'light']:root{
+  --background-color: var(--color-light-100);
+}
+
+[data-theme = 'dark']:root{
+  --background-color: var(--color-dark-700);
+}
+
