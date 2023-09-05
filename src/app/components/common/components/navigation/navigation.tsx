@@ -1,7 +1,13 @@
 import React from 'react'
 
-const Navigation = () => {
-  return <div></div>
-}
+import Link from 'next/link'
 
-export default Navigation
+export const Navigation = () => {
+  return (
+    <div>
+      <Link href="/button">Button</Link>
+      <Link href="/text-field">Text-field</Link>
+      <Link href="/select">Select</Link>
+    </div>
+  )
+}
