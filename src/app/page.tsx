@@ -1,12 +1,10 @@
-import { Button } from '@/app/components/ui/button'
-import { TextField } from '@/app/components/ui/text-field/text-field'
+import { Navigation } from '@/app/components/common/components/navigation'
+import RootLayout from '@/app/layout'
 
 export default function Home() {
   return (
     <main>
-      <Button>click</Button>
-      <button>kik</button>
-      <TextField />
+      <Navigation></Navigation>
     </main>
   )
 }
