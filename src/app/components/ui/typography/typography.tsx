@@ -20,7 +20,7 @@ export type TypographyProps<Tag extends TypographyTag> = ReactTagProps<Exclude<T
 }
 
 export const Typography = <T extends TypographyTag>(props) => {
-  const { children, tag: Tag = 'div', variant }: TypographyProps<T> = props
+  const { children, tag: Tag = 'span', variant }: TypographyProps<T> = props
 
   return <Tag>{children}</Tag>
 }
