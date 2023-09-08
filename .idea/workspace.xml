@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="feat: add navigation">
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/typography/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/typography/typography.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/typography/typography.stories.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/typography/typography.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/root-layout/index.tsx" afterDir="false" />
+    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="fix: typography.tsx fis styles add page text">
+      <change afterPath="$PROJECT_DIR$/src/app/text-field/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/root-layout/root-layout.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/button/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/button/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/common/components/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/common/components/navigation/navigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/typography/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/typography/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/typography/typography.stories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/typography/typography.stories.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/typography/typography.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/typography/typography.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/_boilerplate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/_boilerplate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/variables/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/variables/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/root-layout/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/button/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/root-layout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/root-layout/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,28 +51,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "F:/yevhen-chornenko/ui-kit/src/app/components/common",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "F:\\yevhen-chornenko\\ui-kit\\node_modules\\stylelint",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "pnpm",
-    "prettierjs.PrettierConfiguration.Package": "D:\\next-projects\\ui-kit\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "F:\\yevhen-chornenko\\ui-kit\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/yevhen-chornenko/ui-kit/src/app/components/common&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;F:\\yevhen-chornenko\\ui-kit\\node_modules\\stylelint&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\next-projects\\ui-kit\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;F:\\yevhen-chornenko\\ui-kit\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -89,6 +88,7 @@
       <recent name="F:\yevhen-chornenko\ui-kit\src\app\components\common\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\yevhen-chornenko\ui-kit\src\app\components\ui\button" />
       <recent name="F:\yevhen-chornenko\ui-kit\src\app" />
       <recent name="F:\yevhen-chornenko\ui-kit\src\app\components" />
       <recent name="F:\yevhen-chornenko\ui-kit\src\app\assets" />
@@ -159,7 +159,7 @@
       <workItem from="1693392188750" duration="4996000" />
       <workItem from="1693566942823" duration="21297000" />
       <workItem from="1693833454091" duration="5109000" />
-      <workItem from="1693910083631" duration="9370000" />
+      <workItem from="1693910083631" duration="9996000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
@@ -347,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693911592439</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="feat: add navigation">
+      <created>1694023849456</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1694023849456</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,6 +405,7 @@
     <MESSAGE value="feat: add navigation.tsx" />
     <MESSAGE value="feat: add index files for import" />
     <MESSAGE value="feat: add navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add navigation" />
+    <MESSAGE value="fix: typography.tsx fis styles add page text" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: typography.tsx fis styles add page text" />
   </component>
 </project>

@@ -6,12 +6,16 @@ import { Typography } from '@/app/components/ui/typography'
 
 export const Navigation = () => {
   return (
-    <div>
+    <nav>
       <Link href="/button">
         <Typography tag="h2">Button</Typography>
       </Link>
-      <Link href="/text-field">Text-field</Link>
-      <Link href="/select">Select</Link>
-    </div>
+      <Link href="/text-field">
+        <Typography tag="h2">Text-field</Typography>
+      </Link>
+      <Link href="/select">
+        <Typography tag="span">Select</Typography>
+      </Link>
+    </nav>
   )
 }
