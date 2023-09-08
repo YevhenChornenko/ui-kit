@@ -18,7 +18,22 @@
   border-radius: 2px;
   outline: none;
 
-  &.primary {
+  &[type="password"] {
+    box-sizing: border-box;
+    height: auto;
+    padding: .5em;
+
+    font-size: 1.25em;
+
+    appearance: none;
+    border-radius: 1px;
+  }
+
+  &[type="password"]::-ms-reveal {
+    display: none;
+  }
+
+    &.primary {
     color: var(--primary-default-color);
     background-color: var(--primary-default);
 
