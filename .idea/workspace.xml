@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="fix: typography.tsx fis styles add page text">
-      <change afterPath="$PROJECT_DIR$/src/app/text-field/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/root-layout/root-layout.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/button/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/button/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/common/components/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/common/components/navigation/navigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ui/typography/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/typography/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ui/typography/typography.stories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/typography/typography.stories.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ui/typography/typography.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/typography/typography.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/_boilerplate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/_boilerplate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/root-layout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/root-layout/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/text-field/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/text-field/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -354,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694023849456</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="fix: typography.tsx fis styles add page text">
+      <created>1694178666832</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1694178666832</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
