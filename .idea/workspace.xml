@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="feat: add navigation">
+    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="fix: typography.tsx fis styles add page text">
+      <change afterPath="$PROJECT_DIR$/src/app/text-field/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/root-layout/root-layout.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/button/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/button/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/common/components/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/common/components/navigation/navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/typography/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/typography/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/typography/typography.stories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/typography/typography.stories.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/typography/typography.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/typography/typography.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/_boilerplate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/_boilerplate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/root-layout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/root-layout/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +88,7 @@
       <recent name="F:\yevhen-chornenko\ui-kit\src\app\components\common\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\yevhen-chornenko\ui-kit\src\app\components\ui\button" />
       <recent name="F:\yevhen-chornenko\ui-kit\src\app" />
       <recent name="F:\yevhen-chornenko\ui-kit\src\app\components" />
       <recent name="F:\yevhen-chornenko\ui-kit\src\app\assets" />
@@ -394,6 +405,7 @@
     <MESSAGE value="feat: add navigation.tsx" />
     <MESSAGE value="feat: add index files for import" />
     <MESSAGE value="feat: add navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add navigation" />
+    <MESSAGE value="fix: typography.tsx fis styles add page text" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: typography.tsx fis styles add page text" />
   </component>
 </project>

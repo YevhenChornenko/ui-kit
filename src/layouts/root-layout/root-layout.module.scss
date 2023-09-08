@@ -1,0 +1,13 @@
+.root {
+  display: flex;
+}
+
+.nav {
+  flex-grow: 2;
+  margin: 12px;
+}
+
+.main {
+  flex-grow: 12;
+  margin: 12px;
+}
