@@ -1,12 +1,16 @@
 .root {
   display: flex;
+
+
 }
 
 .nav {
+  display: flex;
+
   width: 20%;
   min-width: 340px;
   max-width: 480px;
-  margin: 12px;
+
 }
 
 .main {
