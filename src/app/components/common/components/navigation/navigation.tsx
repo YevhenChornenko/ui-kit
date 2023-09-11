@@ -2,11 +2,13 @@ import React from 'react'
 
 import Link from 'next/link'
 
+import s from './navigatiom.module.scss'
+
 import { Typography } from '@/app/components/ui/typography'
 
 export const Navigation = () => {
   return (
-    <nav>
+    <nav className={s.nav}>
       <Link href="/button">
         <Typography tag="h2">Button</Typography>
       </Link>
