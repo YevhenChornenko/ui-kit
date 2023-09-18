@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="fix: menu widrh, button, typography add some stories">
-      <change afterPath="$PROJECT_DIR$/src/app/components/common/components/navigation/navigatiom.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/md/test.md" afterDir="false" />
+    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="fix: menu width, button, typography add some stories">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/button/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/button/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/common/components/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/common/components/navigation/navigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ui/button/button.stories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/button/button.stories.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/variables/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/variables/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/root-layout/root-layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/root-layout/root-layout.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +153,7 @@
       <workItem from="1693910083631" duration="9996000" />
       <workItem from="1694199623696" duration="2405000" />
       <workItem from="1694279918520" duration="5730000" />
+      <workItem from="1694426043481" duration="4525000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
@@ -377,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694182513444</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="fix: menu width, button, typography add some stories">
+      <created>1694426161754</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1694426161754</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,6 +430,7 @@
     <MESSAGE value="fix: typography.tsx fis styles add page text" />
     <MESSAGE value="feat: add text-field page" />
     <MESSAGE value="fix: menu widrh, button, typography add some stories" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: menu widrh, button, typography add some stories" />
+    <MESSAGE value="fix: menu width, button, typography add some stories" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: menu width, button, typography add some stories" />
   </component>
 </project>
