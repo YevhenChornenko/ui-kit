@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="fix: menu width, button, typography add some stories">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="feat: add styles">
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/typography/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/typography/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/typography/typography.stories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/typography/typography.stories.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/typography/typography.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/typography/typography.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +31,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YevhenChornenko&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5fb325df-835a-40b9-b237-d258a0e2c5ac" />
+        <option name="url" value="https://github.com/YevhenChornenko/ui-kit.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -46,7 +62,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feat__navigation&quot;,
     &quot;last_opened_file_path&quot;: &quot;F:/yevhen-chornenko/ui-kit/src/app/components/ui/button&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
@@ -57,7 +73,7 @@
     &quot;node.js.selected.package.stylelint&quot;: &quot;F:\\yevhen-chornenko\\ui-kit\\node_modules\\stylelint&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\next-projects\\ui-kit\\node_modules\\prettier&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;F:\\yevhen-chornenko\\ui-kit\\node_modules\\prettier&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;F:\\yevhen-chornenko\\ui-kit\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -154,6 +170,8 @@
       <workItem from="1694199623696" duration="2405000" />
       <workItem from="1694279918520" duration="5730000" />
       <workItem from="1694426043481" duration="4525000" />
+      <workItem from="1695042821275" duration="316000" />
+      <workItem from="1695043168551" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
@@ -376,7 +394,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694426161754</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="feat: add styles">
+      <option name="closed" value="true" />
+      <created>1695043030701</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1695043030701</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +432,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: add eslint,prettier,stylelint" />
     <MESSAGE value="Initial commit from Create Next App" />
     <MESSAGE value="feat: hello world" />
     <MESSAGE value="fix: delete global css" />
@@ -431,6 +456,7 @@
     <MESSAGE value="feat: add text-field page" />
     <MESSAGE value="fix: menu widrh, button, typography add some stories" />
     <MESSAGE value="fix: menu width, button, typography add some stories" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: menu width, button, typography add some stories" />
+    <MESSAGE value="feat: add styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add styles" />
   </component>
 </project>

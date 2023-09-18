@@ -1,14 +1,25 @@
-import React from 'react'
+import React, { ComponentPropsWithoutRef, ElementType } from 'react'
 
-export type TypographyTag = 'h1' | 'h2' | 'h3' | 'span' | 'p' | 'div'
+import { clsx } from 'clsx'
 
-export type TypographyProps = {
-  children?: React.ReactNode
-  tag: TypographyTag
-}
+import { Tags } from '@/ui/typography/enum'
+import { TypographyProps } from '@/ui/typography/types'
+import s from '@/ui/typography/typography.module.scss'
 
-export const Typography = (props: TypographyProps) => {
-  const { children, tag: Tag = 'span' }: TypographyProps = props
+export const Typography = <T extends ElementType>({
+  variant = 'regular-14',
+  as = 'span',
+  children,
+  className,
+  ...rest
+}: TypographyProps<T> & Omit<ComponentPropsWithoutRef<T>, keyof TypographyProps<T>>) => {
+  const styles = clsx(s[variant], className)
 
-  return <Tag>{children}</Tag>
+  const Component = as || Tags[variant]
+
+  return (
+    <Component className={styles} {...rest}>
+      {children}
+    </Component>
+  )
 }
