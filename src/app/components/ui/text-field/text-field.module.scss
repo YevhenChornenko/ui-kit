@@ -1,4 +1,4 @@
-.box{
+.box {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -26,10 +26,10 @@
   color: var(--color-light-100);
 
   background-color: var(--text-field-default);
-  border: 1px solid var(--color-dark-100, #4C4C4C);
+  border: 1px solid var(--color-dark-100, #4c4c4c);
   border-radius: 2px;
 
-  &::placeholder{
+  &::placeholder {
     color: var(--color-light-900);
   }
 }
