@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="feat: add styles">
-      <change beforePath="$PROJECT_DIR$/src/app/components/ui/typography/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/typography/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ui/typography/typography.stories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/typography/typography.stories.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ui/typography/typography.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/typography/typography.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="feat: add typography" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,6 +168,7 @@
       <workItem from="1694426043481" duration="4525000" />
       <workItem from="1695042821275" duration="316000" />
       <workItem from="1695043168551" duration="1000" />
+      <workItem from="1695043191976" duration="701000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
@@ -402,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695043030701</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="feat: add typography">
+      <option name="closed" value="true" />
+      <created>1695043380520</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1695043380520</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit from Create Next App" />
     <MESSAGE value="feat: hello world" />
     <MESSAGE value="fix: delete global css" />
     <MESSAGE value="feat: add storybook" />
@@ -457,6 +461,7 @@
     <MESSAGE value="fix: menu widrh, button, typography add some stories" />
     <MESSAGE value="fix: menu width, button, typography add some stories" />
     <MESSAGE value="feat: add styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add styles" />
+    <MESSAGE value="feat: add typography" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add typography" />
   </component>
 </project>

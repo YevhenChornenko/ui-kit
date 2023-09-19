@@ -1,4 +1,5 @@
-<code 
+<code
+
 ```jsx static
 // ...
 function App() {
@@ -17,7 +18,7 @@ function App() {
         </AppRoot>
       </AdaptivityProvider>
     </ConfigProvider>
-  );
+  )
 }
 
 const MainScreens = () => {
@@ -25,10 +26,10 @@ const MainScreens = () => {
     <View activePanel="profile">
       <Panel id="profile">Profile</Panel>
     </View>
-  );
-};
+  )
+}
 
 const SideCol = () => {
-  return <Panel id="nav">Navigation</Panel>;
-};
+  return <Panel id="nav">Navigation</Panel>
+}
 ```
