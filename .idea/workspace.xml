@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="feat: add typography" />
+    <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="fix: format code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/root-layout/root-layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/root-layout/root-layout.module.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +100,7 @@
       <recent name="F:\yevhen-chornenko\ui-kit\src\app\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.storybook">
+  <component name="RunManager" selected="npm.format">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -140,10 +143,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.format" />
         <item itemvalue="npm.storybook" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.lint" />
-        <item itemvalue="npm.format" />
         <item itemvalue="npm.storybook" />
       </list>
     </recent_temporary>
@@ -169,6 +172,7 @@
       <workItem from="1695042821275" duration="316000" />
       <workItem from="1695043168551" duration="1000" />
       <workItem from="1695043191976" duration="701000" />
+      <workItem from="1695150961914" duration="166000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
@@ -407,7 +411,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695043380520</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="fix: format code">
+      <option name="closed" value="true" />
+      <created>1695151008376</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1695151008376</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +449,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: hello world" />
     <MESSAGE value="fix: delete global css" />
     <MESSAGE value="feat: add storybook" />
     <MESSAGE value="feat: eslin fix downgrade v for 8.22.0" />
@@ -462,6 +473,7 @@
     <MESSAGE value="fix: menu width, button, typography add some stories" />
     <MESSAGE value="feat: add styles" />
     <MESSAGE value="feat: add typography" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add typography" />
+    <MESSAGE value="fix: format code" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: format code" />
   </component>
 </project>
