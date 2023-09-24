@@ -26,6 +26,7 @@ export const Button = (props: ButtonProps) => {
 
   return (
     <button
+      onClick={onClick}
       disabled={isDisabled}
       className={clsx(s.root, s[variant], className, {
         [s.fullWidth]: fullWidth,

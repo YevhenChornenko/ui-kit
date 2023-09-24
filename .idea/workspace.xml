@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58200ade-aa8c-41f7-b803-ef6176219f86" name="Changes" comment="fix: format code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/root-layout/root-layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/root-layout/root-layout.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/button/button.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +172,7 @@
       <workItem from="1695043168551" duration="1000" />
       <workItem from="1695043191976" duration="701000" />
       <workItem from="1695150961914" duration="166000" />
+      <workItem from="1695558176158" duration="221000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit from Create Next App">
       <option name="closed" value="true" />
